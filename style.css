@@ -4,7 +4,7 @@ html { box-sizing: border-box; }
 
 
 h1{color:#d63031 ;
-font: size 36px; ;
+font-size:  36px; ;
 font-weight: bold;
 font-family: 'Nunito', sans-serif; 
 padding: 30px;
@@ -13,10 +13,7 @@ margin: 0;}
 
 body{background-color: #b2bec3;
 font-size: 18px;
-font-family: 'Nunito', sans-serif;
-margin 0;
-padding-bottom: 30px;
-position: relative;}
+font-family:'Nunito', sans-serif;}
 
 .foto{border: 3px solid white;
 border-radius: 150px;
@@ -27,12 +24,48 @@ height: 150px;}
 background-position: center;
 border-radius: 10px;
 width: 550px;
-margin: 0;
-position: absolute;
-left: 150px;
-top: 150px;
+position: relative;
+margin-top: 150px; 
+box-shadow: 5px 5px 5px rgb(100, 98, 98);
 }
 
+p{margin: 0 30px 30px 30px;
+font-size: 18px;}
+
+
+.twitter {display: block;
+background-color: #1da1f2;
+font-size: 18px; 
+font-weight: bold; 
+border-radius: 5px;
+text-align: center;
+margin: 0 30px 0 30px;
+text-transform: uppercase;
+color: white;
+text-decoration: none;}
+
+.twitter:hover{background-color:#0b7bc1 ;}
+
+
+.FB{display: inline-block;   
+    width: 89%;
+    background-color: #3b5998;
+    font-size: 18px; 
+    font-weight: bold; 
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px 30px 30px 30px;
+    text-transform: uppercase;
+color: white;
+text-decoration: none;}
+
+.FB:hover{background-color:#2b406e ;}
+
+
+.rodic{position: relative;}
+.potomek{position: absolute;
+   left: 475px;
+bottom: 225px;;}
 
 
 /*
